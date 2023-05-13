@@ -14,8 +14,8 @@ import hello.core.member.MemoryMemberRepository;
 )
 public class AutoAppConfig {
 	
-	@Bean(name = "memoryMemberRepository")
-	public MemberRepository memberRepository() {
-		return new MemoryMemberRepository();
-	}
+	// @Bean(name = "memoryMemberRepository")
+	// public MemberRepository memberRepository() {
+	// 	return new MemoryMemberRepository();
+	// }
 }
